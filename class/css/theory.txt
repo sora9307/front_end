@@ -1,0 +1,53 @@
+@ Selector
+1. Tag
+2. id
+3. class
+
+ex)
+<div id="header" class="header"></div>
+
+
+@css 포함방법
+
+1. inline
+
+ex)
+<div style="color:red"></div>
+
+2.embed ( internal )
+
+ex)
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <!-- css -->
+  <style>
+    p { color:red }
+  </style>
+  <!--// css -->
+</head>
+
+3. exterbal
+
+ex) 파일 : style.css (임의 파일명)
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+  <!--// css -->
+</head>
+
+
+@문법
+selector {
+  property : property 값;
+  property : property 값;
+  property : property 값;
+}
+
+selector {  property : property 값; }와 같이 한줄로 써도 되지만 가독성을 위해 줄바꿈
