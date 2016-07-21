@@ -1,0 +1,56 @@
+
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  background-color: burlywood;
+}
+
+.container:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.left{
+  float: left;
+}
+
+.contents1{
+  width: 245px;
+  height: 1000px;
+  background-color: gold;
+  float: left;
+
+}
+
+.contents2{
+  width: 245px;
+  height: 1000px;
+  background-color: goldenrod;
+  float: left;
+
+}
+
+.right{
+  float: left;
+  width: 490px;
+}
+
+.contents3{
+  height: 500px;
+  background-color: greenyellow;
+}
+
+.contents4{
+  height: 500px;
+  background-color: green;
+}
+
+.footer{
+  height: 100px;
+  background-color: burlywood;
+}
