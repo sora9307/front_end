@@ -1,47 +1,404 @@
-.wrap{
-  width: 1903px;
-  margin: 0 auto;
+.header{
   position: relative;
 }
 
-.header{
-  height: 117px;
+.inner{
+  width: 1094px;
+  margin: 0 auto;
 }
 
+.small-header{
+  position: absolute;
+  height: 82px;
+  width: 100%;
+  top: 33px;
+  background: #fff;
+  margin: 0 auto;
+}
 
 .logo{
   position: absolute;
-  top: 0;
-  left: 0;
-  margin-left:-0;
-}
-
-.gnb{
-  width: 100%;
-  height: 32px;
-  background: #01aeb2;
-  border-bottom: 1px solid #ebebeb;
-}
-
-.left-menu{
-
-
-}
-
-.left-menu-item{
-  color: #fff;
-  height: 32px;
-  line-height: 32px;
-
-}
-
-.small-wrap{
-  width: 1094px;
-  position: relative;
+  top: 20px;
+  left: 404px;
 }
 
 .nav{
+  position: absolute;
+  left: 750px;
+  top: 40px;
+}
+/*여기까지*/
+.gnb-depth1{
+  float: left;
+  width: 120px;
+}
+
+.gnb-depth2{
+  display: none;
+}
+/*여기까지*/
+.util{
+  width: 100%;
+  height: 33px;
+  background: #01aeb2;;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.util-left{
+  float: left;
+}
+
+.util-left-item{
+  float: left;
+  border-right: 1px solid #4ec6c9;
+  height: 33px;
+}
+
+.util-left-item:first-child{
+  border-left: 1px solid #4ec6c9;
+}
+
+.util-left-link{
+  display: block;
+  height:33px;
+  text-align: center;
+  line-height: 33px;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 10px;
+}
+
+.util-right{
+  float: right;
+}
+
+.util-general{
+  float:left;
+}
+
+.util-general-item{
+  float: left;
+}
+
+.util-general-item:after{
+  content:"";
+  display: inline-block;
+  width: 1px;
+  height: 7px;
+  background: #4ec6c9;
+  margin-bottom: 1px;
+}
+
+.util-general-item:last-child:after{
+  display: none;
+}
+
+.util-general-link{
+  display: inline-block;
+  height:33px;
+  text-align: center;
+  line-height: 33px;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 10px;
+}
+
+.portal-link{
+  float: left;
+  display: block;
+  width: 104px;
+  height: 33px;
+  background: #237491;
+  color: #fff;
+  text-align: center;
+  line-height: 31px;
+  font-weight:bold;
+  font-size: 11px;
+  letter-spacing: -1px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  position: relative;
+}
+
+.portal-link:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  background: url(../images/top_portal_icon.gif) no-repeat;
+}
+
+.search{
+  float: left;
+  margin: 4px 0 0 10px;
+}
+
+.search-heading{
+  display: none;
+}
+
+.search-input{
+  width: 125px;
+  height: 24px;
+  background: #dedede;
+  border: 1px solid #cacaca;
+  border-right: 0;
+  float: left;
+  box-sizing: border-box;
+  font-size: 11px;
+  padding-left: 5px;
+}
+
+.search-button{
+  float: left;
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-indent: -99999em;
+  box-sizing: border-box;
+  border: 1px solid #cacaca;
+  border-left: 0;
+  background: #dedede url(../images/btn_search.png) no-repeat 0 2px;
+}
 
 
 
+.top-visual{
+  width: 100%;
+  height: 158px;
+  background: url(../images/sub_visual01.jpg) no-repeat 50% 0;
+  position: relative;
+}
+
+.top-visual h2{
+  position: absolute;
+  left: 50%;
+  margin: 60px 0 0 -130px;
+}
+
+.slogan-1{
+   font-size: 18px;
+   color: #fff;
+ }
+
+.slogan-2 {
+  font-size: 40px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.lnb{
+  float: left;
+  width: 237px;
+  margin-right: 42px;
+  /* 여기부터 */
+  height: 477px;
+  position: relative;
+
+}
+
+.lnb>h2{
+  font-size: 20px;
+  background: #09619e;
+  color: #fff;
+  padding: 0 20px;
+  height: 60px;
+  line-height: 56px;
+  font-weight: bold;
+}
+
+.lnb>ul>li>a{
+  display: block;
+  box-sizing: border-box;
+  height: 38px;
+  border: 1px solid #e5e7e8;
+  border-top: 0;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 38px;
+  font-weight: bold;
+  background: #f5f5f5 url(../images/blt_arrow1_2.gif) no-repeat 210px 12px;
+}
+
+.lnb>ul>li>a:hover{
+  color: #0b3c9d;
+}
+.lnb>ul>li>a.on{
+  color: #09619e;
+}
+
+.lnb>ul>li>a.on:hover{
+  color: #09619e;
+}
+
+.contents{
+  float: left;
+  width: 815px;
+  position: relative;
+  /* 여기부터
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 23px;
+  */
+}
+
+.contents>h3{
+  font-size: 2.5em;
+  padding: 10px 0 18px 0;
+  border-bottom: 2px solid #666;
+  font-weight: bold;
+}
+
+.contents>h4{
+  width: 400px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 85px;
+  line-height: 38px;
+}
+
+.contents>h4>.font-blue{
+  color: #0c4da2;
+  font-weight: normal;
+}
+
+.contents>p{
+  width: 400px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.contents>p>em,
+.contents>p>strong{
+  font-weight: bold;
+}
+
+
+.contents>p:nth-child(3){
+  margin: 28px 0;
+}
+
+.contents>p:nth-child(3):before{
+  content: "";
+  display: block;
+  width: 228px;
+  height: 5px;
+  background: #237491;
+}
+
+.contents>img{
+  position: absolute;
+  top: 160px;
+  right: 0;
+}
+
+.contents>ul{
+  border: 1px solid #e2e2e2;
+  background: #fcfcfc;
+  margin-top: 50px;
+}
+
+.contents>ul>li{
+  width: 33.33%;
+  float: left;
+  padding: 20px 25px 35px;
+  box-sizing: border-box;
+}
+
+.contents>ul>li>dl{
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.contents>ul>li>dl>dt{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer{
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+.footer-top{
+  position: relative;
+  height: 38px;
+}
+.footer-left-item{
+  display: block;
+  float: left;
+  padding: 12px 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.footer-right-item{
+  display: block;
+  float: right;
+  padding: 12px 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.footer-bottom{
+  position: relative;
+  top: 5px;
+  background: #f4f4f4;
+  padding:20px 0 30px 0;
+}
+
+
+
+.footer-bottom address div{
+  color:#666;
+  float:left;
+  margin-right:5px;
+}
+
+.sns{
+}
+
+.sns-item{
+  display: block;
+  float: right;
+  padding: 5px 0 0 5px;
+}
+
+.copy{
+  color:#666;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #333;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #333;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #333;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.mt36{
+  margin-top: 36px;
 }
