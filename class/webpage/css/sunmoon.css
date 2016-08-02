@@ -1,47 +1,113 @@
+.wrap{
+  overflow: auto;
+}
+
 .header{
-  position: relative;
+  position: absolute;
+  width: 100%;
+  padding-top: 33px;
+  border-bottom: 1px solid #666;
+  margin-bottom: 1px;
+  z-index: 900;
+  background: #fff;
+}
+
+.header>.inner{
+  height: 82px;
+  /*height: 550px;*/
+  overflow: hidden;
+}
+
+.logo{
+  position: absolute;
+  top: 23px;
+  left: 0;
 }
 
 .inner{
   width: 1094px;
   margin: 0 auto;
+  position: relative;
 }
 
-.small-header{
-  position: absolute;
-  height: 82px;
-  width: 100%;
-  top: 33px;
-  background: #fff;
-  margin: 0 auto;
+.gnb{
+  float: right;
 }
 
-.logo{
-  position: absolute;
-  top: 20px;
-  left: 404px;
-}
-
-.nav{
-  position: absolute;
-  left: 750px;
-  top: 40px;
-}
-/*여기까지*/
-.gnb-depth1{
+.gnb-depth1-item{
   float: left;
-  width: 120px;
+  margin-right: 60px;
 }
 
-.gnb-depth2{
+.gnb-depth1-item:last-child{
+  margin-right: 30px;
+}
+.gnb-depth1-link{
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 32px 0 29px ;
+}
+
+.gnb-depth1-link:hover,
+.gnb-depth1-link.current{
+  color: #00878d;
+}
+
+/*임시*/
+.gnb-depth1-item:nth-child(1) .gnb-depth2,
+.gnb-depth1-item:nth-child(2) .gnb-depth2,
+.gnb-depth1-item:nth-child(3) .gnb-depth2,
+.gnb-depth1-item:nth-child(4) .gnb-depth2,
+.gnb-depth1-item:nth-child(5) .gnb-depth2,
+.gnb-depth1-item:nth-child(6) .gnb-depth2
+{
   display: none;
 }
-/*여기까지*/
+/*임시*/
+
+.gnb-depth2{
+  position: absolute;
+  top: 135px;
+  left: 20px;
+}
+
+.gnb-depth2:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.gnb-depth2-item{
+  float: left;
+  margin-right: 30px;
+}
+
+.gnb-depth2-item:last-child{
+  margin-right: 0;
+}
+
+.gnb-depth2-link{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 0 8px;
+}
+
+.gnb-depth3-item{
+  margin: 8px 0 16px;
+}
+
+.gnb-depth3-link{
+  color: #6b6b6b;
+
+}
+
 .util{
   width: 100%;
   height: 33px;
-  background: #01aeb2;;
+
   position: absolute;
+  background: #01aeb2;;
   top: 0;
   left: 0;
 }
@@ -172,6 +238,8 @@
   width: 100%;
   height: 158px;
   background: url(../images/sub_visual01.jpg) no-repeat 50% 0;
+  margin-top: 17px;
+  /*확인*/
   position: relative;
 }
 
@@ -179,6 +247,7 @@
   position: absolute;
   left: 50%;
   margin: 60px 0 0 -130px;
+
 }
 
 .slogan-1{
@@ -196,7 +265,7 @@
   float: left;
   width: 237px;
   margin-right: 42px;
-  /* 여기부터 */
+  /* 확인 */
   height: 477px;
   position: relative;
 
@@ -240,11 +309,6 @@
   float: left;
   width: 815px;
   position: relative;
-  /* 여기부터
-  margin: 0 auto;
-  font-size: 13px;
-  line-height: 23px;
-  */
 }
 
 .contents>h3{
@@ -357,8 +421,6 @@
   padding:20px 0 30px 0;
 }
 
-
-
 .footer-bottom address div{
   color:#666;
   float:left;
@@ -366,6 +428,7 @@
 }
 
 .sns{
+
 }
 
 .sns-item{
