@@ -20,16 +20,12 @@
 
 .gnb{
   float: right;
-  padding-top: 32px;
+  padding: 36px 0 32px;
 }
 
 .gnb-depth1-item{
-  display: block;
   float: left;
-  color: #666666;
-  font-size: 16px;
-  font-weight: bold;
-  padding-right: 50px;
+  margin-left: 75px;
 }
 
 .gnb-depth1-item:last-child{
@@ -37,9 +33,20 @@
 }
 
 .gnb-depth1-link{
-
+  display: block;
+  text-align: center;
 }
-/*юс╫ц*/
+
+
 .gnb-depth2-item{
   display: none;
+  width: 180px;
+  background: #f6f6e8;
+}
+
+.gnb-depth2-link {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 36px;
 }
