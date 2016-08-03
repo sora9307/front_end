@@ -1,0 +1,45 @@
+.wrap{
+  width: 1903px;
+}
+
+.inner{
+  width: 1060px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  float: left;
+}
+
+.gnb{
+  float: right;
+  padding-top: 32px;
+}
+
+.gnb-depth1-item{
+  display: block;
+  float: left;
+  color: #666666;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.gnb-depth1-item:last-child{
+  padding-right: 0;
+}
+
+.gnb-depth1-link{
+
+}
+/*юс╫ц*/
+.gnb-depth2-item{
+  display: none;
+}
