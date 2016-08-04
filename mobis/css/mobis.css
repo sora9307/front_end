@@ -50,3 +50,71 @@
   font-size: 14px;
   line-height: 36px;
 }
+
+.container{
+
+}
+
+.visual{
+  position: relative;
+}
+
+.visual-img{
+  position: absolute;
+  width: 1064px;
+  height: 420px;
+  margin-top: 90px;
+  background: url(../images/visual0.jpg) no-repeat 0 -110px;
+  background-size: 1060px 706px;
+
+}
+
+.visual-bg{
+  position: absolute;
+  top: 195px;
+  left: 250px;
+}
+
+/*
+.visual>img{
+  position: absolute;
+  top: -110px;
+  width: 1060px;
+  height:  706px;
+}
+*/
+
+.visual-text1{
+  position: absolute;
+  width: 411px;
+  left: 322px;
+  top: 245px;
+}
+
+.visual-text2{
+  position: absolute;
+  width: 411px;
+  left: 250px;
+  top: 320px;
+}
+
+.campaign{
+  /*position: absolute;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
