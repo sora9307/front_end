@@ -47,7 +47,7 @@
   float: left;
   width: 180px;
   text-align: center;
-  padding: 36px 0 0;
+  padding: 30px 0 0;
   background: #f6f6e8 url(../images/gnbBg.png) no-repeat;
   position: relative;
 }
@@ -65,20 +65,19 @@
 }
 
 .gnb-depth1-link{
-  display: block;
+  display: inline-block;
   height: 16px;
   /*text-indent: -99999em;*/
   /*background: url();*/
 }
 
-/*.gnb-depth1-item:nth-child(1) .gnb-depth1-link{*/
-  /*width: 94px;*/
-  /*background-position: 0 0;*/
-/*}*/
+.gnb-depth1-item:nth-child(1) .gnb-depth1-link{
+  width: 94px;
+  background-position: 0 0;
+}
 
 
 .gnb-depth2{
-  display: none;
   padding: 53px 0 25px;
 }
 
